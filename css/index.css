@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* Styles for the general text the pages uses */
+
 section h1{
   font-size: 70px;
   color: #1F3E72;
@@ -43,6 +45,8 @@ html{
 body {
   height: 100%;
 }
+
+/*  Styling for the first section */
 
 .first-part{
   height: auto;
@@ -133,6 +137,9 @@ body {
   background-color: #E9F1FE;
 }
 
+
+/*  Styling for the image regarding information about vaccines */
+
 .vaccines-img{
   margin-top: 1%;
   width: 100%;
@@ -142,6 +149,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/*  Styling for the second section */
 
 .second-part{
   height: auto;
@@ -181,6 +190,8 @@ body {
   border-radius: 8%;
   background-color: #EBF0FF;
 }
+
+/*  Styling for the third section */
 
 .third-part{
   display: flex;
@@ -246,6 +257,7 @@ body {
   margin-right: 10px;
 }
 
+/*  Styling for the fourth section */
 
 .fourth-part{
   display: flex;
@@ -328,6 +340,8 @@ body {
   margin-left: 2%;
   margin-bottom: 15%;
 }
+
+/*  Styling for the footer */
 
 footer{
   height: auto;
