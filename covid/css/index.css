@@ -1,0 +1,387 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the general text the pages uses */
+
+section h1{
+  font-size: 70px;
+  color: #1F3E72;
+}
+
+section h2{
+  font-size: 50px;
+  color: #254376;
+}
+
+section h3{
+  font-size: 30px;
+  color: #254376;
+}
+
+section h4{
+  font-size: 25px;
+  color: #254376;
+}
+
+section h5{
+  font-size: 23px;
+  color: #254376;
+}
+
+section p{
+  font-size: 23px;
+  color: #77849A;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+body {
+  height: 100%;
+}
+
+/*  Styling for the first section */
+
+.first-part{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.text1{
+  flex: 1;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  padding-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.images{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+}
+
+.images img{
+  background-color: #FFFBEC;
+  box-shadow: 5px 5px #FFFBEC;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.img1{
+  height: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 img{
+  height: auto;
+  max-width: 100%;
+}
+
+.schedule{
+  opacity: 80%;
+  z-index: 2;
+  border: 1px solid #FFFBEC;
+  background-color: #ffffff;
+  border-radius: 2%;
+  width: 120%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.schedule div{
+  display: flex;
+  padding: 2%;
+  flex: .25%;
+}
+
+.schedule span{
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.schedule button{
+  background-color: #3757D5;
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: bolder;
+  width: 80%;
+  height: 50px;
+  border: 1px solid #3757D5;
+  border-radius: 5%;
+}
+
+.schedule img{
+  height: 30px;
+  padding: 5px;
+  background-color: #E9F1FE;
+}
+
+
+/*  Styling for the image regarding information about vaccines */
+
+.vaccines-img{
+  margin-top: 1%;
+  width: 100%;
+  height: 25%;
+  background-image: url(../img/vaccines.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*  Styling for the second section */
+
+.second-part{
+  height: auto;
+}
+
+.reasons{
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container2{
+  height: auto;
+  flex: 25%;
+  border: 1px solid #ECF1FB;
+  border-radius: 5%;
+  box-shadow: 5px 5px #ECF1FB;
+  margin: 10px 20px 0px 20px;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+.container2 h4, .container2 p{
+  margin-left: 5%;
+  padding-top: 20px;
+}
+
+.container2 img{
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  height: 60px;
+  border: 2px solid #ECF1FB;
+  border-radius: 8%;
+  background-color: #EBF0FF;
+}
+
+/*  Styling for the third section */
+
+.third-part{
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.img3{
+  height: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img3 img{
+  height: auto;
+  max-width: 100%;
+}
+
+.text3{
+  margin-left: 5%;
+  flex: 1;
+  height: 100%;
+}
+
+.text3 p{
+  margin-top: 2%;
+}
+
+.preparation{
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ECF1FB;
+  margin-top: 2%;
+  width: 70%;
+  align-items: center;
+}
+
+.preparation h5{
+  flex: 60%;
+}
+.preparation p{
+  margin-left: 12%;
+  font-size: 18px;
+  margin-bottom: 5%;
+}
+
+.icon{
+  height: 20px;
+  width: 20px;
+  margin: 30px;
+  justify-self: end;
+}
+
+.arrow{
+  height: 20px;
+  background-color: #ECF1FB;
+  padding: 1%;
+  margin-right: 10px;
+}
+
+/*  Styling for the fourth section */
+
+.fourth-part{
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 12%;
+}
+
+.fourth-part p{
+  margin-top: 40px;
+}
+
+.text4{
+  height: 100%;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin-left: 5%;
+}
+
+.img4{
+  height: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img4 img{
+  height: auto;
+  max-width: 100%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 2;
+  margin: 3%;
+}
+
+.rowbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex: 44%;
+  border: 1px solid #ECF1FB;
+  border-radius: 5%;
+  margin: 3%;
+}
+
+.rowbox p{
+  flex: 50%;
+}
+
+.rowbox button{
+  flex: 40%;
+  padding: 5% 2%;
+  margin: 4% 15%;
+  background-color: #F1F5FF;
+  border: none;
+  font-size: 20px;
+  color: #3757D5;
+  font-weight: bolder;
+}
+
+.rowbox img{
+  height: 70px;
+  margin: 5% 8%;
+  padding: 2%;
+  background-color: #ECF1FB;
+  border-radius: 20%;
+}
+
+.rowbox p{
+  margin-left: 2%;
+  margin-bottom: 15%;
+}
+
+/*  Styling for the footer */
+
+footer{
+  height: auto;
+  background-color: #EEF3FF;
+  margin-top: 10%;
+  display: flex;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 20px;
+}
+
+.footer-div{
+  flex: 1;
+  justify-content: flex-start;
+  color: #217BE0;
+}
+
+.footer-div2{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  color: #1F3E72;
+}
+
+.footer-nav{
+  flex: 50%;
+  margin: 0 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer p{
+  color: #77849A;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+footer a{
+  color: #77849A;
+  margin-top: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
